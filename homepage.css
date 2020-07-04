@@ -1,0 +1,32 @@
+button{
+    background-color: rgb(149, 215, 21w8);
+}
+#welcomeSection{
+    font-weight: 900;
+    color: cornflowerblue;
+    margin: auto;
+    width: 100%;
+    height: 400px;
+}
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+}
+.navbar{
+    background-color: rgba(100, 148, 237, 0.479);
+}
+h1{
+    text-align: center;
+    padding-top: 250px;
+    width: 100%;
+}
+a{
+    float: right;
+    font-weight: bolder;
+    color: crimson;
+}
+p{
+    font-style: oblique;
+    text-align: center;
+    color:rgb(209, 52, 84);
+}
