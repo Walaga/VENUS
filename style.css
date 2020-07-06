@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(165, 118, 118);
+    color: black;
+    min-height: 10vh;
+
+}
+
+.list{
+    display: flex;
+    justify-content:space-around;
+    color: red;
+    list-style: none;
+    width: 50%;
+}
+.list li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+img{
+    width: 1400px;
+
+}
+.welcome-section{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+body{
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    border-radius: 0ch;
+}

@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(165, 118, 118);
+    color: black;
+    min-height: 10vh;
+
+}
+
+.list{
+    display: flex;
+    justify-content:space-around;
+    color: red;
+    list-style: none;
+    width: 50%;
+}
+.list li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+p{
+    font-style: italic;
+    font-size: larger;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(193, 184, 199);
+}
+h3{
+    font-size: larger;
+}
