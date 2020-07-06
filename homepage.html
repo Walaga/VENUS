@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team venus</title>
     <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>      
-
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
 <body>
 <div class="container-fluid">
          <nav class="navbar navbar-expand-lg navbar-light">
            <a class="navbar-brand" href="#">Venus</a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
              <span class="navbar-toggler-icon"></span>
            </button>
            <div class="collapse navbar-collapse" id="navbarNav">
@@ -20,12 +23,19 @@
                <li class="nav-item active">
                  <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
                </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="members">Members</a>
+               <li class="nav-item dropdown" >
+                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown-menu" href="Team.html">Team
+                 
+                     <span class="caret"></span>
+               </a>
+                   <div class="dropdown-menu" id="aria-labelledby">
+                    <a href="#">stella</a>
+                    <a href="#">Priscilla</a>
+                    <a href="#">samuel</a>
+                    <a href="#">edgar</a>
+                    <a href="#">diphan</a>
+                  </div>
                </li>
-               <!--<li class="nav-item">
-                 <a class="nav-link disabled" href="#">Disabled</a>
-               </li>-->
              </ul>
            </div>
            </nav>

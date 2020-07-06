@@ -14,16 +14,28 @@ body{
 }
 .navbar{
     background-color: rgba(100, 148, 237, 0.479);
+    margin:0px;
 }
 h1{
     text-align: center;
     padding-top: 250px;
     width: 100%;
 }
-a{
+
+li {
     float: right;
     font-weight: bolder;
     color: crimson;
+}
+
+a {
+    list-style: none;
+    display: list-item;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
 }
 p{
     font-style: oblique;
