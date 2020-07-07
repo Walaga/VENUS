@@ -2,7 +2,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(165, 118, 118);
+    background-color: rgba(218, 104, 104, 0.685);
     color: black;
     min-height: 10vh;
 
@@ -19,6 +19,10 @@ nav{
     text-decoration: none;
     color: whitesmoke;
 }
+h1{
+    color: rgb(165, 62, 62);
+    font-style: italic;
+}
 img{
     width: 1400px;
 
@@ -29,8 +33,28 @@ img{
     
 }
 body{
-    background-color: gray;
+    background-image: url(pic.jpg);
+    background-size: cover;
     padding: 0;
     margin: 0;
     border-radius: 0ch;
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    padding:5px;
+}
+p{
+    font-style: italic;
+    font-size: larger;
+    padding:5px;
+    color: white;
+
+}
+
+h3{
+    font-size: larger;
+}
+a{
+    padding:5px;
 }
