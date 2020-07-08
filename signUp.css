@@ -47,8 +47,8 @@ h1{
        cursor: pointer;  
    }*/
 
-   @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
-*:focus {
+  
+:focus {
   outline: none;
 }
 
