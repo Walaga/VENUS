@@ -3,30 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sign up style.css">
+    <link rel="stylesheet" href="signUp.css">
     <title>The ultimate venus</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>VENUS</h1>
-            <p>MEMBERS:
-            <select>
-                <option><a href="#"></a></option>
-                <option value="1">stella</option>
-                <option value="2">priscilla</option>
-                <option value="3">diphan</option>
-                <option value="4">samuel</option>
-                <option value="5">edgar</option>
-            </select>
-            </p>
-            <ul class="list">
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="./projects.html">PROJECTS</a></li>
-                <li><a href="./signUp.css">SIGNUP</a></li>
-            </ul>
-        </nav>
-    </header>
+   <div class="flex-container">
+        <header>
+            <nav>
+                <h1>VENUS</h1>
+                <ul class="list">
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="dropdown">
+                        <a  class="dropbtn">MEMBERS</a>
+                        <div class="dropdown-content">
+                        <a href="#"></a>
+                          <a href="profileStella.html">Stella</a>
+                          <a href="./priscilla/edith.html">Priscilla</a>
+                          <a href="./diphan/diphan.html">Diphan</a>
+                          <a href="#">Samuel</a>
+                          <a href="./Edgar/Edgar.html">Edgar</a>
+                        </div>
+                      </li>
+                    <li><a href="./projects.html">PROJECTS</a></li>
+                    <li><a href="signUp.html">SIGNUP</a></li>
+                </ul>
+            </nav>
+        </header>
     <div id="login-box">
         <div class="left">
           <h1>Signup</h1>
