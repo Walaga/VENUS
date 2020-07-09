@@ -1,0 +1,54 @@
+img{
+    height: 250px;
+    width: 250px;
+     border-radius: 50%;
+     padding:20px;
+
+}
+.photo{
+    float:right;
+}
+h1{
+    color:rgb(28, 52, 78);
+    text-align: center;
+
+}
+#root{
+    margin: auto;
+    text-rendering: optimizeLegibility;
+    width:max-content;
+    display:grid;
+    height: 600px;
+}
+.profile-info{
+    position: Absolute;
+    float: left;
+  
+}
+h5{
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(28, 52, 78);
+}
+body{
+    background-color: rgba(138, 134, 136, 0.575);
+    color: rgb(44, 83, 81);
+}
+p{
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+.Github{
+     position: relative;
+     width: max-content;
+}
+
+.Github a{
+    padding:20px;
+    float: right;
+}
+.profile-description{
+    padding-top: 20px;
+}
