@@ -4,30 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="projectStyle.css">
-    <title>The ultimate venus</title>
+    <title>Venus &copy;</title>
 </head>
 <body>
-    <div class="flex-container">
-    <header>
+    <div class="container">
+        <div class="logo">
+            <svg height="64" width="300">
+                <a xlink:href="https://www.w3schools.com/graphics/">
+                    <style>
+                        .main { 
+                            font: bold 40px consolas; 
+                        }
+                        .sub {
+                            font-family: 'Source Code Pro', monospace;
+                        }
+
+                    </style>
+                    <text x="20" y="37" fill="blue" class="main">&lt; venus /&gt;</text>
+                    <text x="33" y="56" fill="#18B8DD" class="sub">Software Company</text> 
+                </a>
+                Sorry, your browser does not support inline SVG!
+            </svg>
+        </div>
         <nav>
-            <h1>VENUS</h1>
-            <p>MEMBERS:
-            <select>
-                <option><a href="#"></a></option>
-                <option value="1">stella</option>
-                <option value="2">priscilla</option>
-                <option value="3">diphan</option>
-                <option value="4">samuel</option>
-                <option value="5">edgar</option>
-            </select>
-            </p>
-            <ul class="list">
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="./projects.html">PROJECTS</a></li>
-                <li><a href="./sign up.html">SIGN UP</a></li>
-            </ul>
+            <ul class="nav-list">
+                <!-- list item one -->
+                <li class="nav-list__item">
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+
+                <!-- list item two -->
+                <li class="nav-list__item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+
+                <!-- list item three -->
+                <li class="nav-list__item">
+                    <a href="./projects.html" class="nav-link">Projects</a>
+                </li>
+
+                <!-- list item four -->
+                <li class="nav-list__item">
+                    <div class="dropdown">
+                        <button class="dropbtn">Members</button>
+                        <div class="dropdown-content">
+                            <a href="./Samuel/index.html" class="dropbtn-link">Samuel</a>
+                            <a href="./priscilla/edith.html" class="dropbtn-link">Priscilla</a>
+                            <a href="./Edgar/VENUS-edgar/Edgar.html" class="dropbtn-link">Edgar</a>
+                            <a href="profileStella.html" class="dropbtn-link">Stella</a>
+                            <a href="./diphan/diphan.html" class="dropbtn-link">Diphan</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>     
         </nav>
-    </header>
+    </div>
     <div class="Main">
     <p>The amazing venus has done many projects entirely across the nation </p>
     <p>Here are some of our projects done;</p>
@@ -37,7 +68,6 @@
     <img src="./photos/car.jpg">
     <h3>project for the agriculture associaton</h3>
     <img src="./photos/agric.jpg">
-    </div>
     </div>
     
 </body>

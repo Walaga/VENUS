@@ -5,35 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>The ultimate venus</title>
+    <title>Venus &copy;</title>
 </head>
 
 <body>
-    <div class="flex-container">
-        <header>
-            <nav>
-                <h1>VENUS</h1>
-                <ul class="list">
-                    <li><a href="#">HOME</a></li>
-                    <li class="dropdown">
-                        <a  class="dropbtn">MEMBERS</a>
+    <div class="container">
+        <div class="logo">
+            <svg height="64" width="300">
+                <a xlink:href="https://www.w3schools.com/graphics/">
+                    <style>
+                        .main { 
+                            font: bold 40px consolas; 
+                        }
+                        .sub {
+                            font-family: 'Source Code Pro', monospace;
+                        }
+
+                    </style>
+                    <text x="20" y="37" fill="blue" class="main">&lt; venus /&gt;</text>
+                    <text x="33" y="56" fill="#18B8DD" class="sub">Software Company</text> 
+                </a>
+                Sorry, your browser does not support inline SVG!
+            </svg>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <!-- list item one -->
+                <li class="nav-list__item">
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+
+                <!-- list item two -->
+                <li class="nav-list__item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+
+                <!-- list item three -->
+                <li class="nav-list__item">
+                    <a href="./projects.html" class="nav-link">Projects</a>
+                </li>
+
+                <!-- list item four -->
+                <li class="nav-list__item">
+                    <div class="dropdown">
+                        <button class="dropbtn">Members</button>
                         <div class="dropdown-content">
-                        <a href="#"></a>
-                          <a href="profileStella.html">Stella</a>
-                          <a href="./priscilla/edith.html">Priscilla</a>
-                          <a href="./diphan/diphan.html">Diphan</a>
-                          <a href="#">Samuel</a>
-                          <a href="./Edgar/VENUS-edgar/Edgar.html">Edgar</a>
+                            <a href="./Samuel/index.html" class="dropbtn-link">Samuel</a>
+                            <a href="./priscilla/edith.html" class="dropbtn-link">Priscilla</a>
+                            <a href="./Edgar/VENUS-edgar/Edgar.html" class="dropbtn-link">Edgar</a>
+                            <a href="profileStella.html" class="dropbtn-link">Stella</a>
+                            <a href="./diphan/diphan.html" class="dropbtn-link">Diphan</a>
                         </div>
-                      </li>
-                    <li><a href="./projects.html">PROJECTS</a></li>
-                    <li><a href="./sign up.html">SIGNUP</a></li>
-                </ul>
-            </nav>
-        </header>
-        <h1 class="welcome-section">"Taking the steps to Make a difference with VENUS"</h1>
-        <!-- <img src="./photos/venus.jpg" alt="plannet venus">-->
+                    </div>
+                </li>
+            </ul>     
+        </nav>
     </div>
+    
+    <h1 class="welcome-section">"Taking the steps to Make a difference with VENUS"</h1>
+    <!-- <img src="./photos/venus.jpg" alt="plannet venus">-->
 
 </body>
 
